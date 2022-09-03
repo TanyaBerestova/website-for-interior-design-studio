@@ -1,5 +1,3 @@
-# website-for-interior-design-studio
-
  <h1>Дизайн сайта для студии интерьера (клиентская часть)</h1>
  
  <ul>
