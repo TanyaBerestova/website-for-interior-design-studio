@@ -1,0 +1,50 @@
+﻿.logo_mini {
+    width: 49px;
+    height: 49px;
+    border: 1px solid black;
+    background: white;
+}
+
+.hexagon_mini {
+    position: absolute;
+    width: 29.95px;
+    height: 18px;
+    background-color: #ffffff;
+    margin: 12.5px 7.5px;
+    border-left: solid 2.5px #f3deaf;
+    border-right: solid 2.5px #f3deaf;
+    box-shadow: 0 0 10px black;
+    z-index: 3;
+}
+
+    .hexagon_mini:before,
+    .hexagon_mini:after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        width: 21.25px;
+        height: 21.25px;
+        -webkit-transform: scaleY(0.57) rotate(-45deg);
+        -ms-transform: scaleY(0.57) rotate(-45deg);
+        transform: scaleY(0.57) rotate(-45deg);
+        background-color: inherit;
+        left: 2.67px;
+        box-shadow: 0px 0px 10px black;
+    }
+
+    .hexagon_mini:before {
+        top: -12.25px;
+        border-top: solid 3.5px #f3deaf;
+        border-right: solid 3.5px #f3deaf;
+    }
+
+    .hexagon_mini:after {
+        bottom: -12.25px;
+        border-bottom: solid 3.5px #f3deaf;
+        border-left: solid 3.5px #f3deaf;
+    }
+
+.name_studio_mini {
+    position: absolute;
+    z-index: 4;
+}

@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/logo.css" rel="stylesheet"/>
+    <script src="js/Nav.js" charset="utf-8"></script>
+    <title>Сайт Берестовой Т.А.</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="main-header">
+            <nav class="topnav" id="myTopnav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="Portfolio.html">Портфолио</a></li>
+                    <li>
+                        <a>Основные направления</a>
+                        <ul>
+                            <li><a href="Home_interior.html">Дизайн жилых помещений</a></li>
+                            <li><a href="Business_interior.html">Дизайн интерьеров для бизнеса</a></li>
+                            <li><a href="Arch_interior.html">Архитектурное проектирование</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Services.html">Услуги</a></li>
+                    <li><a href="Contacts.html">Контакты</a></li>
+                    <li class="icon">
+                        <a href="javascript:void(0);" onclick="myFunction()">
+                            <h3>Меню</h3>
+                            <img src="img/icon_menu.png" width="40" height="40">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <h1>ИНТЕРЬЕРЫ  КЛАССА  ПРЕМИУМ</h1>
+            <a href="index.html">
+            <div class="logo">
+                <div class="hexagon"></div>
+                <div class="name_studio">
+                    <img src="img/polyhedron_name_pic.png" alt="Polyhedron" width="60" hspace="20" vspace="28">
+                </div>
+                <img src="img/design_studio_name_pic.png" alt="Design Studio" width="85" hspace="8" vspace="85">
+            </div></a>
+        </header>
+        <main id="content">
+            <section id="buckets">
+                <h2>Основные направления</h2>
+                <div class="line"></div>
+                <div class="grid">
+                    <box class="box1">
+                        <img src="img/home_interior_example_pic.jpg"/>
+                        <div class="bucket">
+                            <h3>Дизайн жилых квартир и комнат</h3>
+                            <p>Проектирование квартир от 80 — 250 м<sup>2</sup>, домов от 150 — 1000 м<sup>2</sup> в современном стиле, из экологически чистых материалов.</p>
+                            <form>
+                                <input type="button" value="ПОДРОБНЕЕ" class="button1" onClick='location.href="Home_interior.html"'>
+                            </form>
+                        </div>
+                    </box>
+                    <box class="box2">
+                        <img src="img/restaurant_interior_example_pic.jpg"/>
+                        <div class="bucket">
+                            <h3>Дизайн интерьеров для бизнеса</h3>
+                            <p>Проектирование коммерческих интерьеров, Дизайн интерьера ресторанов, баров, кафе, отелей под целевую аудиторию</p>
+                            <form>
+                                <input type="button" value="ПОДРОБНЕЕ" class="button1" onClick='location.href="Business_interior.html"'>
+                            </form>
+                        </div>
+                    </box>
+                    <box class="box3">
+                        <img src="img/arch_design_example_pic.jpg"/>
+                        <div class="bucket">
+                            <h3>Архитектурное проектирование</h3>
+                            <p>Архитектурное проектирование загородных домов от 150 - 1000 м<sup>2</sup> для частных клиентов в современном стиле.</p>
+                            <form>
+                                <input type="button" value="ПОДРОБНЕЕ" class="button1" onClick='location.href="Arch_interior.html"'>
+                            </form>
+                        </div>
+                    </box>
+                </div>
+            </section>
+            <section id="four">
+                <h2>Принципы работы</h2>
+                <div class="line"></div>
+                <div class="grid">
+                    <box class="box4">
+                        <img class="img1" src="img/icon_quality.png"/>
+                        <h3>Соотношение <br /> цена-качество</h3>
+                        <p>Грамотно распределяем бюджет заказчика, чтобы получить лучший результат, не потратив колоссальные средства.</p>
+                    </box>
+                    <box class="box5">
+                        <img class="img1" src="img/icon_time.png"/>
+                        <h3>Короткие сроки проектирования</h3>
+                        <p>Мы ценим не только денежные стредства заказчика, но и его время. Проектируем в самые короткие сроки.</p>
+                    </box>
+                    <box class="box6">
+                        <img class="img1" src="img/icon_technology.png"/>
+                        <h3>Понимание строительных технологий</h3>
+                        <p>Реализованный интерьер будет точно, как спроектированный. Все идеи будут воплощены в реальной жизни.</p>
+                    </box>
+                    <box class="box7">
+                        <img class="img1" src="img/icon_individual.png"/>
+                        <h3>Индивидуально разработанный интерьер</h3>
+                        <p>Мы составляем подробное техническое задание, поэтому интерьеры получаются удобными и качественными.</p>
+                    </box>
+                </div>
+            </section>
+        </main>
+        <footer class="colophon grid">
+            <aside><a href="index.html">Студия дизайна интерьера "Poly Hedron", 2020</a></aside>
+            <aside><a href="Contacts.html">Контакты</a></aside>
+        </footer>
+    </div>
+</body>
+</html>
